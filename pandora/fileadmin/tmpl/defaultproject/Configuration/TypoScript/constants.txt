@@ -1,5 +1,5 @@
-# cat=FLUIDPAGES/settings; type=text; label=BaseURL mit / am Ende
-baseURL = http://dev.media-alliance.eu/
+#### cat=FLUIDPAGES/settings; type=text; label=BaseURL mit / am Ende
+baseURL = http://pandora-box.de/
 
 # cat=FLUIDPAGES/settings; type=text; label=Pfad zu den Templates
 tmplRootPath = fileadmin/tmpl/defaultproject
