@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Media-alliance</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="all" href="../css/template2.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="../css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="../css/jquery.selectBoxIt.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.selectBoxIt.min.js"></script>
+		<script type="text/javascript" src="../js/config.js"></script>
+
+		<link rel="stylesheet" type="text/css" media="all" href="../css/jquery-ui-1.8.20.custom.css"/>
+		<script type="text/javascript" src="../js/booker_config.js"></script>
+
+	</head>
+
+	<body>
+		<!-- pageheader -->
+		<header>
+			<div class="header_top">
+				<div class="page_container">
+					<div class=" header_logo phm_20">
+						<a href="#"><img src="../images/logo_smoll_2.png" alt="Media-alliance"></a>
+					</div>
+					<nav role="navigation" class="navigation">
+						<div id="menu_mobile" class="phm_20">
+							<img src="../images/white-menu-icon-48.png" alt="Mobile Menu" />
+						</div>
+						<div class="communication phm_20_right">
+							<a class="mail" href="#"> </a>
+							<a class="tel" href="#"> </a>
+						</div>
+						<div id="menu_main" class="rightfloater">
+							<ul class="nav1 phm">
+								<li class="nav1 first active">
+									<a href="#">Global Media Network</a>
+								</li>
+								<li class="nav1">
+									<a href="#">About</a>
+									<ul class="">
+										<li class="active">
+											<a href="#">Portfolio1</a>
+										</li>
+										<li>
+											<a href="#">News</a>
+										</li>
+										<li class="">
+											<a href="#">Portfolio2</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav1">
+									<a href="#">How</a>
+								</li>
+								<li class="nav1">
+									<a href="#">Org</a>
+								</li>
+							</ul>
+						</div>
+
+					</nav>
+
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="menu_mobile_content">
+				<ul class="mobile_menu_1">
+					<li class="">
+						<a href="#">Global Media Network</a>
+					</li>
+					<li class="sub">
+						<a href="#">About</a>
+						<ul class="">
+							<li class="border_top_dark">
+								<a href="#">Portfolio1</a>
+							</li>
+							<li class="">
+								<a href="#">News</a>
+							</li>
+							<li class="">
+								<a href="#">Portfolio2</a>
+							</li>
+						</ul>
+					</li>
+					<li class="">
+						<a href="#">How</a>
+					</li>
+					<li>
+						<a href="#">Org</a>
+					</li>
+				</ul>
+			</div>
+			<section id="stage" class="fullwidth_wrap">
+				<div class="slider">
+					<div class="stageslider">
+						<div class="slide">
+							<div class="slide_image">
+								<a href="#"><img src="../images/banner.jpg" alt=""/></a>
+								<div class="slide_content absolute" style="cursor: pointer;">
+									<div class="page_container">
+
+										<div class="text_slider absolute">
+											<div class="">
+												<h2>1 Touchpoint for 360°</h2>
+											</div>
+											<div class="subtitle">
+												<h3>12 Cities - all Media needs</h3>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class=" box_grau">
+				<div class= "page_container">
+					<div class="content ptm_40">
+						<div class=" box1 size1of4  e1_size1of1_1200 leftfloater border ptm_40">
+							box1 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+						</div>
+						<div class=" box2 size1of4  e1_size1of1_1200 leftfloater border ptm_40">
+							box2 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+						</div>
+						<div class=" box3 size1of4  e1_size1of1_1200 leftfloater border ptm_40">
+							box3 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+						</div>
+						<div class="size3of4 leftfloater e1_size1of1_1200  ptm_40 ">
+							<ul class="process">
+								<li>
+									<div class="round1">
+										<a class="icon_size" href="#">
+										<div class="img_text">
+											LEANER
+										</div> </a>
+									</div>
+
+								</li>
+								<li>
+									<div class="round2">
+										<a class="icon_size" href="#">
+										<div class="img_text">
+											FASTER
+										</div> </a>
+									</div>
+								</li>
+								<li>
+									<div class="round3">
+										<a class="icon_size" href="#">
+										<div class="img_text">
+											STRONGER
+										</div> </a>
+									</div>
+									<div class="clear">
+										&nbsp;
+									</div>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<!--<div class= "page_container">
+					<div class="box_aside_left  box1 size1of4  e1_size1of1 leftfloater">
+					box1 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+					</div>
+					<div class="box_aside_left  box2 size1of4  e1_size1of1 leftfloater">
+					box2 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+					</div>
+					<div class="box_aside_left  box3 size1of4  e1_size1of1 leftfloater">
+					box3 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+					</div>
+
+					<div class="process_steps size3of4  e1_size1of1 leftfloater">
+					<div class="process_width">
+					<ul class="">
+					<li>
+					<div class="round1">
+					<a class="icon_size" href="#">
+					<div class="img_text">
+					LEANER
+					</div> </a>
+					</div>
+					</li>
+					<li>
+					<div class="round2">
+					<a class="icon_size" href="#">
+					<div class="img_text">
+					FASTER
+					</div> </a>
+					</div>
+					</li>
+					<li>
+					<div class="round3 ">
+					<a class="icon_size" href="#">
+					<div class="img_text">
+					STRONGER
+					</div> </a>
+					</div>
+					</li>
+					</ul>
+					</div>
+					</div>-->
+					<div class="clear">
+						&nbsp;
+					</div>
+				</div>
+			</section>
+			<section class="white">
+				<div class="page_container">
+					<div class="content ptm_40">
+						<div class=" box1 size1of4  e1_size1of1_1200 leftfloater border ptm_40">
+							box1 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+						</div>
+						<div class=" box2 size1of4  e1_size1of1_1200 leftfloater border ptm_40">
+							box2 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+						</div>
+						<div class=" box3 size1of4  e1_size1of1_1200 leftfloater border ptm_40">
+							box3 dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est dolor sit amet, consetetur sadipscing elitr, bum. Stet clita kasd gubergren, no sea takimata sanctus est
+						</div>
+						<div class="size3of4  box_all_icon rightfloater e1_size1of1_1200  ptm_40 ">
+							<div class="circle_box1">
+								<div class="resizable_box1 round1 ">
+									<a class="" href="#">
+									<div class="img_text_neu">
+										LEANER
+									</div> </a>
+								</div>
+							</div>
+							<div class="circle_box2 ">
+								<div class="resizable_box2  round2">
+									<a class="" href="#">
+									<div class="img_text_neu">
+										FASTER
+									</div> </a>
+								</div>
+							</div>
+							<div class="circle_box3">
+								<div class="resizable_box3 round3">
+									<a class="" href="#">
+									<div class="img_text_neu">
+										STRONGER
+									</div> </a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear">
+						&nbsp;
+					</div>
+				</div>
+
+			</section>
+			<section class="white">
+				<div class="page_container">
+					<div class="box_main size2of3 e1_size1of1 leftfloater ptm_60 phm_20">
+						<h2>The media solution network</h2>
+						<div class="prm">
+							<p>
+								A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+							</p>
+							<br />
+							<p>
+								Our ongoing commitment to talented people and state of the art technology will provide you with best results in creativity and professional services.
+							</p>
+							<br />
+							<p>
+								MUNICH # BERLIN # HAMBURG # LONDON # PARIS # ISTANBUL # MOSCOW # NEW YORK # LOS ANGELES # SINGAPORE # CAPE TOWN # TORONTO
+							</p>
+							<br />
+						</div>
+					</div>
+					<div class="box_aside_right box_e_video size1of3 e1_size1of1 leftfloater ptm_60 phm_20">
+						<div class="box_e_video_container size1of1">
+							<!--<iframe src="https://www.youtube.com/embed/8aWrhSRSOwM" frameborder="0" allowfullscreen></iframe>-->
+							<img src="../images/cup.jpg" />
+						</div>
+					</div>
+					<div class="clear">
+						&nbsp;
+					</div>
+				</div>
+			</section>
+
+			<section class="grau">
+				<div class="page_container">
+					<div class="leftfloater size1of3 phm_20 ptm_40">
+						<p>
+							A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+						</p>
+					</div>
+					<div class="leftfloater size1of3 phm_20 ptm_40">
+						<p>
+							A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+						</p>
+					</div>
+					<div class="leftfloater size1of3 phm_20 ptm_40">
+						<p>
+							A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+						</p>
+					</div>
+					<div class="clear">
+						&nbsp;
+					</div>
+				</div>
+			</section>
+			<section class="white">
+				<div class="page_container">
+					<div class="leftfloater size1of3 phm_20 ptm_40 ">
+						<p>
+							A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+						</p>
+					</div>
+					<div class="leftfloater size1of3 phm_20 ptm_40">
+						<p>
+							A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+						</p>
+					</div>
+					<div class="leftfloater size1of3 phm_20 ptm_40">
+						<p>
+							A fully integrated media solution network home-based in Munich, Germany, which has firmly established its reputation as a service & production unit that provides complete 360° production solutions up to a high standard and within your budget.
+						</p>
+					</div>
+					<div class="clear">
+						&nbsp;
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- FOOTER -->
+
+		<footer>
+
+		</footer>
+
+	</body>
+</html>
