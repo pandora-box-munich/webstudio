@@ -1,0 +1,87 @@
+#######################
+###   SUCHE        ####
+#######################
+
+plugin.tx_indexedsearch.templateFile = fileadmin/sys/indexed_search/template.tmpl
+
+plugin.tx_macinasearchbox_pi1 {
+pidSearchpage = 36
+templateFile = fileadmin/sys/searchbox/template.htm
+}
+[globalVar = GP:L = 1]
+plugin.tx_macinasearchbox_pi1.templateFile = fileadmin/sys/searchbox/template_en.htm
+[global]
+
+lib.searchbox < plugin.tx_macinasearchbox_pi1
+
+plugin.tx_indexedsearch {
+      # erweiterte Suche abschalten
+show.advancedSearchLink = 0
+  
+ blind {
+  ###settings: 0=aktiv (sichtbar), -1 inaktiv (nicht sichtbar)
+ 
+  ## Vergleichs-Typ (Ganzes Wort, Wortteil,etc)
+  type=-1
+ 
+  ## type default option (und /oder)
+  defOp=0
+ 
+  ## Bereich(e) der website
+  sections=0
+ 
+  ## Suche in Medientypen (erweiterungen)
+  media=1
+ 
+  ## Sortierung
+  order=-1
+ 
+  ## Ansicht (Sektionshierachie / Liste)
+  group=-1
+ 
+  ## Ansicht: Erweiterte Vorschau
+  extResume = -1
+ 
+  ## Sprachwahlbox
+  lang=0
+ 
+  ## Aufsteigend absteigend
+  desc=-1
+ 
+  ## Ergebnisse (Anzahl der Treffer pro Seite)
+  results=-1
+ }
+ show {
+  ###settings: 1=aktiv (sichtbar), 0 inaktiv (nicht sichtbar)
+ 
+  ## zeige Kurzanleitung
+  rules=0
+ 
+  ## Erstellungsinformationen des Hashes
+  parsetimes=1
+ 
+  ## Zweite ebene im Bereichs-dropdown anzeigen
+  L2sections=1
+ 
+  ## Erste ebene im Bereichs-dropdown anzeigen
+  L1sections=1
+ 
+  ## Alle "nicht im menü" oder "im menü verstecken"
+  ##(aber nicht "versteckte" seiten) mit anzeigen in section?
+  LxALLtypes=0
+ 
+  ## leeren des Suchfeldes nach suche
+  clearSearchBox = 0
+ 
+  ## Aktuelles suchwort zu den bisherigen suchwörtern hinzufügen
+  clearSearchBox.enableSubSearchCheckBox=0
+ }
+ search {
+   ## Seiten-Id auf der die Suchergebnisse ausgegeben werden sollen.
+  ## Leer lassen entspricht auf gleicher Seite ausgeben
+    rootPidList =
+ 
+  ## Anzahl der auszugebenden treffer
+    page_links = 10
+ }
+}

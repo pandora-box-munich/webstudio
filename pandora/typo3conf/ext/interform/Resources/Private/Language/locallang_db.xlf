@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-08T15:45:53Z" product-name="interform">
+		<header/>
+		<body>
+			<trans-unit id="tx_interform_domain_model_kontakt">
+				<source>Kontakt</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.vorname">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.nachname">
+				<source>Nachname</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.mail">
+				<source>Mail</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.unternehmen">
+				<source>Unternehmen</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.position">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.telefon">
+				<source>Telefon</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.nachricht">
+				<source>Nachricht</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.anhang">
+				<source>Anhang</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_kontakt.sonstiges">
+				<source>Sonstiges</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform">
+				<source>Wedding Form</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.salutation">
+				<source>Salutation</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.street1">
+				<source>Street1</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.street2">
+				<source>Street2</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.state">
+				<source>State</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.mail">
+				<source>Mail</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.resort">
+				<source>Resort</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_weddingform.comments">
+				<source>Comments</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.resort">
+				<source>Resort</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.salutation">
+				<source>Salutation</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.meeting">
+				<source>Meeting</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.date1">
+				<source>Date1</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.date2">
+				<source>Date2</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.date_flexibility">
+				<source>Date Flexibility</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.alt_date1">
+				<source>Alt Date1</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.alt_date2">
+				<source>Alt Date2</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.room_numbers">
+				<source>Room Numbers</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.company">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.street1">
+				<source>Street1</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.street2">
+				<source>Street2</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.state">
+				<source>State</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.mail">
+				<source>Mail</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.attendees">
+				<source>Attendees</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.setup_rounds">
+				<source>Setup Rounds</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.setup_auditorium">
+				<source>Setup Auditorium</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.setup_classroom">
+				<source>Setup Classroom</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.setup_conference">
+				<source>Setup Conference</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.setup_exhibit">
+				<source>Setup Exhibit</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.setup_cocktail">
+				<source>Setup Cocktail</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_event.comments">
+				<source>Comments</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa">
+				<source>Spa</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.resort">
+				<source>Resort</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.salutation">
+				<source>Salutation</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.mail">
+				<source>Mail</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.couple_names">
+				<source>Couple Names</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment1">
+				<source>Treatment1</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment1number">
+				<source>Treatment1number</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment1numbermore">
+				<source>Treatment1numbermore</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment1date">
+				<source>Treatment1date</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment1time">
+				<source>Treatment1time</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment1timerange">
+				<source>Treatment1timerange</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment2">
+				<source>Treatment2</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment2number">
+				<source>Treatment2number</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment2numbermore">
+				<source>Treatment2numbermore</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment2date">
+				<source>Treatment2date</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment2time">
+				<source>Treatment2time</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment2timerange">
+				<source>Treatment2timerange</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment3">
+				<source>Treatment3</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment3number">
+				<source>Treatment3number</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment3numbermore">
+				<source>Treatment3numbermore</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment3date">
+				<source>Treatment3date</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment3time">
+				<source>Treatment3time</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.treatment3timerange">
+				<source>Treatment3timerange</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.message">
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.requirements">
+				<source>Requirements</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.occassion">
+				<source>Occassion</source>
+			</trans-unit>
+			<trans-unit id="tx_interform_domain_model_spa.occassion_other">
+				<source>Occassion Other</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

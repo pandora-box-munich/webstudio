@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="fluidcontent_intertain" date="2014-01-06T01:00:11+01:00">
+		<header/>
+		<body>
+			<trans-unit id="flux.teaser_service" xml:space="preserve">
+				<source>Teaser Service</source>
+			</trans-unit>
+			<trans-unit id="flux.teaser_service.description" xml:space="preserve">
+				<source>verwendbar auf Seite Service</source>
+			</trans-unit>
+			<trans-unit id="flux.teaser_unternehmen" xml:space="preserve">
+				<source>Teaser Unternehmen/AGB</source>
+			</trans-unit>
+			<trans-unit id="flux.teaser_unternehmen.description" xml:space="preserve">
+				<source>verwendbar auf Seite Unternehmen/AGB</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_finden" xml:space="preserve">
+				<source>EasyProject Finden</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_finden.description" xml:space="preserve">
+				<source>verwendbar auf Seite EasyProject</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_bedienung" xml:space="preserve">
+				<source>EasyProject Bedienung</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_bedienung.description" xml:space="preserve">
+				<source>verwendbar auf Seite EasyProject</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_intelligenz" xml:space="preserve">
+				<source>EasyProject Intelligenz</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_intelligenz.description" xml:space="preserve">
+				<source>verwendbar auf Seite EasyProject</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_produkte" xml:space="preserve">
+				<source>EasyProject Produkte</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_produkte.description" xml:space="preserve">
+				<source>verwendbar auf Seite EasyProject</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_datenblaetter" xml:space="preserve">
+				<source>EasyProject Datenblätter</source>
+			</trans-unit>
+			<trans-unit id="flux.ep_datenblaetter.description" xml:space="preserve">
+				<source>verwendbar auf Seite EasyProject</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

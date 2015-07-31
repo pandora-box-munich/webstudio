@@ -1,0 +1,26 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://xsd.helmut-hummel.de/ns/TYPO3/CMS/Fluid/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+	<f:layout name="Email"/>
+
+	<f:section name="Main">
+		<strong>Dear Excellence Team,</strong>
+		<p>the Contact form of your Website was submitted with following information:</p>
+		<p>
+			<span style="width: 150px; display: inline-block">Salutation:</span>{formular.salutation}<br/>
+			<span style="width: 150px; display: inline-block">First name:</span>{formular.firstname}<br/>
+			<span style="width: 150px; display: inline-block">Last name:</span>{formular.lastname}<br/>
+			<span style="width: 150px; display: inline-block">Phone:</span>{formular.phone}<br/>
+			<span style="width: 150px; display: inline-block">E-Mail:</span>{formular.mail}<br/>
+			<span style="width: 150px; display: inline-block">Resort of interest:</span>{formular.resort}<br/>
+			<br/>
+			<f:if condition="{formular.comments}">
+			Comments:<br/><br/>
+			{formular.comments}
+			<br/>
+			</f:if>
+		</p>
+	</f:section>
+	
+</div>

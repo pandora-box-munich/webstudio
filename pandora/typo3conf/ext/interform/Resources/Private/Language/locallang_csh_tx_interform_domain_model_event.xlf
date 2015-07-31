@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-08T15:45:53Z" product-name="interform">
+		<header/>
+		<body>
+			<trans-unit id="resort.description">
+				<source>resort</source>
+			</trans-unit>
+			<trans-unit id="salutation.description">
+				<source>salutation</source>
+			</trans-unit>
+			<trans-unit id="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="meeting.description">
+				<source>meeting</source>
+			</trans-unit>
+			<trans-unit id="date1.description">
+				<source>date1</source>
+			</trans-unit>
+			<trans-unit id="date2.description">
+				<source>date2</source>
+			</trans-unit>
+			<trans-unit id="date_flexibility.description">
+				<source>dateFlexibility</source>
+			</trans-unit>
+			<trans-unit id="alt_date1.description">
+				<source>altDate1</source>
+			</trans-unit>
+			<trans-unit id="alt_date2.description">
+				<source>altDate2</source>
+			</trans-unit>
+			<trans-unit id="room_numbers.description">
+				<source>roomNumbers</source>
+			</trans-unit>
+			<trans-unit id="company.description">
+				<source>company</source>
+			</trans-unit>
+			<trans-unit id="street1.description">
+				<source>street1</source>
+			</trans-unit>
+			<trans-unit id="street2.description">
+				<source>street2</source>
+			</trans-unit>
+			<trans-unit id="city.description">
+				<source>city</source>
+			</trans-unit>
+			<trans-unit id="state.description">
+				<source>state</source>
+			</trans-unit>
+			<trans-unit id="zip.description">
+				<source>zip</source>
+			</trans-unit>
+			<trans-unit id="country.description">
+				<source>country</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="mail.description">
+				<source>mail</source>
+			</trans-unit>
+			<trans-unit id="attendees.description">
+				<source>attendees</source>
+			</trans-unit>
+			<trans-unit id="setup_rounds.description">
+				<source>setupRounds</source>
+			</trans-unit>
+			<trans-unit id="setup_auditorium.description">
+				<source>setupAuditorium</source>
+			</trans-unit>
+			<trans-unit id="setup_classroom.description">
+				<source>setupClassroom</source>
+			</trans-unit>
+			<trans-unit id="setup_conference.description">
+				<source>setupConference</source>
+			</trans-unit>
+			<trans-unit id="setup_exhibit.description">
+				<source>setupExhibit</source>
+			</trans-unit>
+			<trans-unit id="setup_cocktail.description">
+				<source>setupCocktail</source>
+			</trans-unit>
+			<trans-unit id="comments.description">
+				<source>comments</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

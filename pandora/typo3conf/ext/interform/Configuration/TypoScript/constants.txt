@@ -1,0 +1,15 @@
+
+plugin.tx_interform {
+	view {
+		# cat=plugin.tx_interform/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:interform/Resources/Private/Templates/
+		# cat=plugin.tx_interform/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:interform/Resources/Private/Partials/
+		# cat=plugin.tx_interform/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:interform/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_interform//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

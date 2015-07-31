@@ -1,0 +1,84 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+<f:layout name="Content" />
+<div xmlns="http://www.w3.org/1999/xhtml"
+xmlns:flux="http://fedext.net/ns/flux/ViewHelpers"
+xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="Configuration">
+		<v:variable.set name="locallangPath" value="{v:variable.typoscript(path: 'lib.locallangPath.value')}" />
+
+		<flux:form id="stage_slider" label="Stage Slider" description="for all stages">
+			<flux:form.sheet name="options" label="Options">
+
+				<flux:form.section name="sliders" label="Slider">
+					<flux:form.object name="slider" label="Slide">
+
+						<flux:field.input name="title" label="Title (optional)" />
+						<flux:field.input name="subtitle" label="Subtitle (optional)" />
+
+						<flux:field.file name="image" label="Image" allowed="jpg, jpeg, png, gif"/>
+						<flux:field.input name="image_alt" label="Image title (for SEO)"/>
+						<flux:field.input name="link" label="Link (optional)" >
+							<flux:wizard.link />
+						</flux:field.input>
+
+					</flux:form.object>
+				</flux:form.section>
+
+			</flux:form.sheet>
+		</flux:form>
+
+	</f:section>
+
+	<f:section name="Preview">
+		<h2>Stage Slider</h2>
+		<f:if condition="{sliders}">
+			<f:for each="{sliders}" as="slider" iteration="iteration">
+				<f:if condition="{slider.slider.image}"><img style="display: inline; margin-right: 10px" src="{f:uri.image(src:'{slider.slider.image}', maxWidth: 200, maxHeight: 160)}" width="200" alt="{slider.slider.image_alt}" />
+				</f:if>
+			</f:for>
+		</f:if>
+	</f:section>
+
+	<f:section name="Main">
+
+		<section id="stage" class="fullwidth_wrap">
+			<div class="slider">
+				<div class="stageslider">
+
+					<f:if condition="{sliders}">
+						<f:for each="{sliders}" as="slider" iteration="iterator">
+
+							<div class="slide">
+								<div class="slide_image">
+									<f:link.page pageUid="{slider.slider.link}">
+										<f:image src="{slider.slider.image}" alt="{slider.slider.image_alt}" width="1600" />
+										<div class="slide_content absolute" style="cursor: pointer;">
+											<div class="page_container">
+												<div class="text_slider  absolute">
+													<div>
+														<h2>{slider.slider.title}</h2>
+													</div>
+													<div class="subtitle">
+														<h3>{slider.slider.subtitle}</h3>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</f:link.page>
+								</div>
+							</div>
+
+						</f:for>
+					</f:if>
+
+				</div>
+			</div>
+		</section>
+
+	</f:section>
+
+</div>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+     <file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2015-03-25T16:00:23Z" product-name="interform">
+             <header/>
+             <body>
+                     <trans-unit id="interform.langcode">
+                             <source>en</source> 
+                     </trans-unit> 
+                     <trans-unit id="interform.yes">
+                             <source>yes</source> 
+                     </trans-unit> 
+                     <trans-unit id="interform.no">
+                             <source>no</source> 
+                     </trans-unit> 
+                     <trans-unit id="interform.request_more_information">
+                             <source>Request more information</source>
+                     </trans-unit>  
+                     <trans-unit id="interform.salutation">
+                             <source>Salutation</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.salutation_mr">
+                             <source>Mr.</source> 
+                     </trans-unit> 
+                     <trans-unit id="interform.salutation_mrs">
+                             <source>Mrs.</source> 
+                     </trans-unit> 
+                     <trans-unit id="interform.salutation_ms">
+                             <source>Ms.</source> 
+                     </trans-unit> 
+                     <trans-unit id="interform.firstname">
+                             <source>First name</source>
+                     </trans-unit>
+                     <trans-unit id="interform.lastname">
+                             <source>Last name</source>
+                     </trans-unit>  
+                     <trans-unit id="interform.street">
+                             <source>Street Address</source>
+                     </trans-unit>                   
+                     <trans-unit id="interform.city">
+                             <source>City</source>
+                     </trans-unit>      
+                     <trans-unit id="interform.zip">
+                             <source>Postal / ZIP Code</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.state">
+                             <source>State/Province</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.country">
+                             <source>Country</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.country_outside_us">
+                             <source>Country, if outside US</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.phone">
+                             <source>Phone</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.mail">
+                             <source>E-Mail</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.resort">
+                             <source>Resort of interest</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.select_destination">
+                             <source>Select destination</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.comments">
+                             <source>Comments/Questions</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.comments">
+                             <source>Comments/Questions</source>
+                     </trans-unit>  
+                     <trans-unit id="interform.message">
+                             <source>Message</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.mandatory">
+                             <source>Mandatory field</source>
+                     </trans-unit>      
+                     <trans-unit id="interform.send">
+                             <source>send</source>
+                     </trans-unit>  
+                     <trans-unit id="interform.error_firstname">
+                             <source>Please insert your first name.</source>
+                     </trans-unit>                     
+                     <trans-unit id="interform.error_lastname">
+                             <source>Please insert your last name.</source>
+                     </trans-unit>      
+                     <trans-unit id="interform.error_email">
+                             <source>Please insert your eMail.</source>
+                     </trans-unit>    
+                     <trans-unit id="interform.error_emailvalid">
+                             <source>Please insert a valid eMail.</source>
+                     </trans-unit>  
+                     <trans-unit id="interform.error_meeting">
+                             <source>Please insert the meeting title.</source>
+                     </trans-unit>   
+                     <trans-unit id="interform.error_street">
+                             <source>Please insert your street.</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.meeting">
+                             <source>Meeting Title</source>
+                     </trans-unit>              
+                     <trans-unit id="interform.dates_of_event">
+                             <source>Dates of Event</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.error_date">
+                             <source>Please insert a event date.</source>
+                     </trans-unit>     
+                     <trans-unit id="interform.date_flexibility">
+                             <source>Are these dates flexible?</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.alternate_dates">
+                             <source>Alternate dates</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.peak_nr_rooms">
+                             <source>Peak number of rooms</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.error_peak_nr_rooms">
+                             <source>Please insert the peak number of rooms.</source>
+                     </trans-unit>
+                     <trans-unit id="interform.company">
+                             <source>Company</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.total_attendees">
+                             <source>Total attendees</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.error_attendees">
+                             <source>Please insert the total attendees.</source>
+                     </trans-unit>
+                     <trans-unit id="interform.setup_type">
+                             <source>Setup type</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_rounds">
+                             <source>Rounds</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_auditorium">
+                             <source>Auditorium</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_classroom">
+                             <source>Classroom</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_conference">
+                             <source>Conference</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_exhibit">
+                             <source>Exhibit</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_cocktail">
+                             <source>Cocktail</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.submit_event_rfp">
+                             <source>Submit Event RFP</source>
+                     </trans-unit> 
+             </body>
+     </file>
+</xliff>

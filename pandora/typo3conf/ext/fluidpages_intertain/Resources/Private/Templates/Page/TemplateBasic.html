@@ -1,0 +1,50 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+<f:layout name="Page" />
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+     xmlns:flux="http://fedext.net/ns/flux/ViewHelpers"
+     xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+  <f:section name="Configuration">
+    <flux:form id="front" label="Basic Page Template" icon="">
+      <flux:grid>
+        <flux:grid.row>
+          <flux:grid.column colPos="0" colspan="1"name="area0" label="Stage" />
+        </flux:grid.row>
+        <flux:grid.row>
+          <flux:grid.column colPos="1" colspan="1" name="area1" label="Content Area" />
+        </flux:grid.row>
+      </flux:grid>
+    </flux:form>
+  </f:section>
+  
+  <f:section name="Resources">
+    <f:render partial="PageObjects" section="SharedResources" />
+  </f:section>
+  
+  
+  <f:section name="Content">
+
+		<!-- pageheader -->
+		<header>
+			<f:render partial="PageObjects" section="Header" />
+		</header>
+		<main>
+			<div id="menu_mobile_content">
+				<f:cObject typoscriptObjectPath="lib.menu_mobile"/>
+			</div>
+			<f:cObject typoscriptObjectPath="lib.content0"/>
+			<f:cObject typoscriptObjectPath="lib.content1"/>
+		</main>
+
+		<!-- FOOTER -->
+
+		<footer>
+		</footer>
+		
+		<f:render partial="PageObjects" section="SharedResourcesJS" />
+		
+  </f:section>
+  
+  
+</div>

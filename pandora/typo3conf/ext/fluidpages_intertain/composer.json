@@ -1,0 +1,9 @@
+{
+    "name": "fluidtypo3/fluidpages_intertain",
+    "description": "The fluidpages_intertain package from FluidTYPO3",
+    "require": {
+        "composer/installers": "*",
+        "fluidtypo3/fluidpages": "*"
+    },
+    "type": "typo3-cms-extension"
+}

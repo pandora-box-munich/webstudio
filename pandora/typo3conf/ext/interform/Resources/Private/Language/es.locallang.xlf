@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+     <file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2015-03-25T16:00:23Z" product-name="interform">
+             <header/>
+             <body>
+                     <trans-unit id="interform.langcode">
+                             <target>es</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.yes">
+                             <target>si</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.no">
+                             <target>no</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.request_more_information">
+                             <target>Solicitar más información</target>  
+                     </trans-unit>  
+                     <trans-unit id="interform.salutation">
+                             <target>Trato</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.salutation_mr">
+                             <target>Sr.</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.salutation_mrs">
+                             <target>Sra.</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.salutation_ms">
+                             <target>Srita.</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.firstname">
+                             <target>Nombre</target>
+                     </trans-unit>
+                     <trans-unit id="interform.lastname">
+                             <target>Apellido</target>
+                     </trans-unit>  
+                     <trans-unit id="interform.street">
+                             <target>Dirección</target>
+                     </trans-unit>                   
+                     <trans-unit id="interform.city">
+                             <target>Ciudad</target>
+                     </trans-unit>      
+                     <trans-unit id="interform.zip">
+                             <target>Código Postal</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.state">
+                             <target>Estado/Provincia</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.country">
+                             <target>País</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.country_outside_us">
+                             <target>País si se encuentra fuera</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.phone">
+                             <target>Telefóno</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.mail">
+                             <target>Correo Electrónico</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.resort">
+                             <target>Resort de su interés</target>
+                     </trans-unit> 
+                    <trans-unit id="interform.select_destination">
+                             <target>Elija un Destino</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.comments">
+                             <target>Comentarios/Preguntas</target>
+                     </trans-unit>   
+                     <trans-unit id="interform.message">
+                             <target>Mensaje</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.mandatory">
+                             <target>Campo obligatorio</target>
+                     </trans-unit>      
+                     <trans-unit id="interform.send">
+                             <target>enviar</target>
+                     </trans-unit>  
+                     <trans-unit id="interform.error_firstname">
+                             <target>Por favor inserte su nombre.</target>
+                     </trans-unit>                     
+                     <trans-unit id="interform.error_lastname">
+                             <target>Por favor inserte el apellido.</target>
+                     </trans-unit>      
+                     <trans-unit id="interform.error_email">
+                             <target>Por favor inserta tu correo electrónico.</target>
+                     </trans-unit>    
+                     <trans-unit id="interform.error_emailvalid">
+                             <target>Por favor introducí una dirección válida.</target>
+                     </trans-unit>   
+                     <trans-unit id="interform.error_meeting">
+                             <target>Por favor provea la información requerida.</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.error_street">
+                             <source>Por favor provea la información requerida.</source>
+                     </trans-unit> 
+                     <trans-unit id="interform.meeting">
+                             <target>Nombre del evento</target>
+                     </trans-unit>  
+                     <trans-unit id="interform.error_date">
+                             <target>Por favor provea la información requerida.</target>
+                     </trans-unit>             
+                     <trans-unit id="interform.dates_of_event">
+                             <target>Fenchas del evento</target>
+                     </trans-unit>   
+                     <trans-unit id="interform.date_flexibility">
+                             <target>Estas fechas son flexibles?</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.alternate_dates">
+                             <target>Fechas alternas</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.peak_nr_rooms">
+                             <target>Numero de habitaciones</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.error_peak_nr_rooms">
+                             <target>Por favor inserte el numero de habitaciones.</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.company">
+                             <target>Nombre de la compañía</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.total_attendees">
+                             <target>Total de Asistentes</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.error_attendees">
+                             <target>Por favor provea la información requerida.</target>
+                     </trans-unit>
+                     <trans-unit id="interform.setup_type">
+                             <target>Tipo de Montaje</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_rounds">
+                             <target>Banquete</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_auditorium">
+                             <target>Auditorio</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_classroom">
+                             <target>Tipo Escuela</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_conference">
+                             <target>Conferencia</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_exhibit">
+                             <target>Exposición</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.setup_cocktail">
+                             <target>Cocktail</target>
+                     </trans-unit> 
+                     <trans-unit id="interform.submit_event_rfp">
+                             <target>Solicitud de información de eventos</target>
+                     </trans-unit> 
+             </body>
+     </file>
+</xliff>

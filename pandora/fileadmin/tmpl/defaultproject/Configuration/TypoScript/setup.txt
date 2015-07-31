@@ -1,0 +1,241 @@
+
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/tmpl/defaultproject/Configuration/TypoScript/fluid.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/tmpl/defaultproject/Configuration/TypoScript/header.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/tmpl/defaultproject/Configuration/TypoScript/searchbox.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/tmpl/defaultproject/Configuration/TypoScript/langmenu.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/tmpl/defaultproject/Configuration/TypoScript/ext_cssstyledcontent.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/tmpl/defaultproject/Configuration/TypoScript/grid.txt">
+
+##### Doctype/HTML auf HTML5 einstellen ####
+config.doctype = html5
+config.htmlTag_setParams = none
+
+#############################
+# INDEX SEARCH HANDLING
+#############################
+page.config.index_enable = 1
+plugin.tx_indexedsearch._DEFAULT_PI_VARS.lang = 0
+config.index_externals = 1
+config.no_cache = 0
+config.linkVars=L
+
+#############################
+# Anker vor Content entfernen
+#############################
+
+// Alle CSC-Default Wraps löschen
+tt_content.stdWrap.innerWrap >
+
+// Anker vor Contents löschen (normalerweise nicht erwünscht)
+tt_content.stdWrap.innerWrap.cObject.66.10 >
+
+// In einer Mehrsprachenumgebung ist auch folgende Zeile nötig um die Anchors zu löschen
+tt_content.stdWrap.prepend.dataWrap >
+
+#############################
+# LANGUAGE HANDLING
+#############################
+
+# SprachVariable L initialisieren
+config.linkVars = L
+# Auch wenn eine Seite nicht ubersetzt ist, bleibt man auf der Webseite in der gewahlten Sprache
+# (Menus sind ubersetzt etc..) und es wird stattdessen der Inhalt der Defaultsprache angezeigt.
+config.sys_language_mode = content_fallback
+# Fehlermeldung falls nicht übersetzte Seiten angezeigt werden sollen
+# config.sys_language_mode=strict
+# Nur ubersetzte Elemente oder welche mit Landereinstellung "all" werden angezeigt.
+config.sys_language_overlay = hideNonTranslated
+# Alle Elemente werden angezeigt (egal welche Spracheinstellung), falls eine Übersetzung existiert, wird diese angezeigt.
+# config.sys_language_overlay = 1
+# Bugfix Englische Inhalte werden angezeigt, auch wenn diese keine Standardsprachenvariante haben, aber "Alle" Elemente werden nicht angezeigt
+config.sys_language_overlay = 0
+
+#############################
+# URL HANDLING
+#############################
+
+config.simulateStaticDocuments = 0
+config.baseURL = {$baseURL}
+config.tx_realurl_enable = 1
+# config.prefixLocalAnchors = all
+
+
+#############################
+# LIGHTBOX KlASSE
+#############################
+
+#tt_content.image.20.1.imageLinkWrap {
+#    JSwindow = 0
+#    directImageLink = 1
+#    linkParams.ATagParams {
+#        dataWrap = class="fancybox" rel="fancybox{field:uid}"
+#    }
+#}
+
+
+#############################
+# BASIC CONFIGURATION
+#############################
+
+#config.doctype = xhtml_strict
+#config.doctype = xhtml_trans
+config.xhtml_cleaning = all
+config.doctypeSwitch = 1
+config.metaCharset = utf-8
+config.additionalHeaders = Content-Type:text/html;charset=utf-8
+
+config.spamProtectEmailAddresses = 1
+config.spamProtectEmailAddresses_atSubst = (at)
+
+config.sys_language_uid = 0
+config.language = en
+config.htmlTag_langKey= en
+config.locale_all = en_EN
+
+[globalVar = GP:L = 1]
+config.sys_language_uid = 1
+config.language = es
+config.locale_all = es_ES
+config.htmlTag_langKey = es
+[global]
+
+page{
+### Metadaten ###
+  meta {
+    # Schlüsselwörter für eine Webseite definieren
+    keywords = 
+    # keywords.field = keywords
+    # Kurze Beschreibung der Webseite
+    # description = 
+    description.field = description
+    # Copyright
+    #copyright = 
+    # Herausgeber
+    #publisher = 
+    # Autor
+    author = balleywasl.muenchen GmbH
+    # Inhalt der Seite
+    #page-topic = 
+    # Zielpublikum
+    #Audience = 
+    # Sprache der Webseite
+    #Content-language = DE, ES
+    # Seitentyp
+    #Page-type = HTML, CSS
+    # Suchmaschine soll Seite indexieren und Links folgen
+    Robots = INDEX,FOLLOW
+  }
+}
+
+#############################
+# Menu Main
+#############################
+
+lib.menu_main = HMENU
+lib.menu_main{
+  special = directory
+  special.value = 1
+  excludeUidList = 
+  1 = TMENU
+  1 {
+    expAll = 1
+    wrap = <ul class="nav1 phm">|</ul>
+    noBlur = 1
+    
+    NO = 1
+    NO.wrapItemAndSub = <li class="nav1 ">|</li>
+
+    CUR = 1
+    CUR.wrapItemAndSub = <li class="nav1 active">|</li> 
+    
+    ACT = 1
+    ACT.wrapItemAndSub = <li class="nav1 active">|</li> 
+  }
+  2 = TMENU
+  2 {
+    expAll = 1
+    wrap = <ul>|</ul>
+    noBlur = 1
+    
+    NO = 1
+    NO.wrapItemAndSub = <li>|</li>
+
+    CUR = 1
+    CUR.wrapItemAndSub = <li class="active">|</li>
+    
+    ACT = 1
+    ACT.wrapItemAndSub = <li class="active">|</li>
+  }
+}
+
+
+#############################
+# Menu Mobile
+#############################
+
+lib.menu_mobile = HMENU
+lib.menu_mobile{
+  special = directory
+  special.value = 1
+  1 = TMENU
+  1 {
+    expAll = 1
+    wrap = <ul class="mobile_menu_1">|</ul>
+    noBlur = 1
+    
+    NO = 1
+    NO.wrapItemAndSub = <li>|</li> 
+
+  	IFSUB = 1
+    IFSUB.wrapItemAndSub = <li class="sub">|</li>
+    
+    CUR = 1
+    CUR.wrapItemAndSub = <li class="active">|</li> 
+  }
+  2 < .1
+  2.wrap = <ul>|</ul>
+}
+
+#############################
+# Menu Footer
+#############################
+
+lib.menu_footer = HMENU
+lib.menu_footer{
+  special = directory
+  special.value = 139
+  1 = TMENU
+  1 {
+    expAll = 1
+    wrap = <ul class="">|<ul>
+    noBlur = 1
+    
+    NO = 1
+    NO.wrapItemAndSub = <li class="first">|</li> |*| <li>|</li> |*| <li class="last">|</li>
+
+    CUR = 1
+    CUR.wrapItemAndSub = <li class="first active">|</li> |*| <li class="active">|</li> |*| <li class="last active">|</li>
+  }
+  
+}
+
+
+
+#############################
+# BREADCRUMB
+#############################
+
+#lib.breadcrumb = HMENU
+#lib.breadcrumb{
+#  special = rootline
+#  special.range = 0 | -1
+#  wrap = ThinkSimple &nbsp;&gt;&nbsp;&nbsp;<span class="upper">|</span>
+#  1 = TMENU
+#  1.NO.allWrap = |&nbsp;&nbsp;&gt;&nbsp;&nbsp; |*| |&nbsp;&nbsp;&gt;&nbsp;&nbsp; |*| |
+#  1.CUR = 1
+#  1.CUR < .1.NO
+#  1.CUR.doNotLinkIt = 1
+#}
+
+
+

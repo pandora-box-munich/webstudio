@@ -1,0 +1,103 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Einstellungen</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+					<switchableControllerActions>
+						<TCEforms>
+							<label>Select function</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Wedding Form</numIndex>
+										<numIndex index="1">WeddingForm->new; WeddingForm->create;</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">Contact Form</numIndex>
+										<numIndex index="1">Kontakt->new; Kontakt->create;</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">Events Form</numIndex>
+										<numIndex index="1">Event->new; Event->create;</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">SPA Form</numIndex>
+										<numIndex index="1">Spa->new; Spa->create;</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+                	<settings.mailtitle>
+                        <TCEforms>
+                            <label>E-Mail Betreff</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.mailtitle>
+                	<settings.sender_name>
+                        <TCEforms>
+                            <label>Sender Name</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.sender_name>
+                	<settings.sender_mail>
+                        <TCEforms>
+                            <label>Sender E-Mail</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.sender_mail>
+                	<settings.mailto_name>
+                        <TCEforms>
+                            <label>Empfänger Name</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.mailto_name>
+                	<settings.mailto_mail>
+                        <TCEforms>
+                            <label>Empfänger E-Mail</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.mailto_mail>
+                	<settings.page_success>
+                        <TCEforms>
+                            <label>Success Page ID</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.page_success>
+                	<settings.page_error>
+                        <TCEforms>
+                            <label>Error Page ID</label>
+                            <config>
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>             
+                    </settings.page_error>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

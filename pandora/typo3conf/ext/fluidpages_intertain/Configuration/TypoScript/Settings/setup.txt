@@ -1,0 +1,17 @@
+plugin.tx_fluidpagesintertain.settings.useTypoScript = {$plugin.tx_fluidpagesintertain.settings.useTypoScript}
+plugin.tx_fluidpagesintertain.settings {
+	entryLevel = {$plugin.tx_fluidpagesintertain.settings.entryLevel}
+	enableSearch = {$plugin.tx_fluidpagesintertain.settings.enableSearch}
+	searchFieldName = {$plugin.tx_fluidpagesintertain.settings.searchFieldName}
+	addWell = {$plugin.tx_fluidpagesintertain.settings.addWell}
+	wellSmall = {$plugin.tx_fluidpagesintertain.settings.wellSmall}
+	lightJumbotronColor = {$plugin.tx_fluidpagesintertain.settings.lightJumbotronColor}
+	darkJumbotronColor = {$plugin.tx_fluidpagesintertain.settings.darkJumbotronColor}
+	jumbotronTextColor = {$plugin.tx_fluidpagesintertain.settings.jumbotronTextColor}
+	jumbotronPadding = {$plugin.tx_fluidpagesintertain.settings.jumbotronPadding}
+	headerFontSize = {$plugin.tx_fluidpagesintertain.settings.headerFontSize}
+	paragraphFontSize = {$plugin.tx_fluidpagesintertain.settings.paragraphFontSize}
+	jumbotronMarginBottom = {$plugin.tx_fluidpagesintertain.settings.jumbotronMarginBottom}
+	position = {$plugin.tx_fluidpagesintertain.settings.position}
+	distribution = {$plugin.tx_fluidpagesintertain.settings.distribution}
+}

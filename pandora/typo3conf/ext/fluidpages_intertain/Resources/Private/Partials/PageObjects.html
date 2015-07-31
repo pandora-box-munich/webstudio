@@ -1,0 +1,57 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+<f:layout name="Page" />
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="SharedResources">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" media="all" href="fileadmin/tmpl/defaultproject/Resources/Public/css/template2.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="fileadmin/tmpl/defaultproject/Resources/Public/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="fileadmin/tmpl/defaultproject/Resources/Public/css/jquery.selectBoxIt.css" />
+	</f:section>
+
+	<f:section name="SharedResourcesJS">
+		<v:asset.script path="fileadmin/tmpl/defaultproject/Resources/Public/js/jquery-1.11.0.min.js" allowMoveToFooter="true"/>
+		<v:asset.script path="fileadmin/tmpl/defaultproject/Resources/Public/js/jquery-ui.min.js" allowMoveToFooter="true"/>
+		<v:asset.script path="fileadmin/tmpl/defaultproject/Resources/Public/js/jquery.bxslider.min.js" allowMoveToFooter="true"/>
+		<v:asset.script path="fileadmin/tmpl/defaultproject/Resources/Public/js/config.js" allowMoveToFooter="true"/>
+	</f:section>
+
+	<f:section name="Header">
+		<div class="header_top">
+			<div class="page_container">
+				<div class=" header_logo phm_20">
+					<a href="#"><img src="fileadmin/tmpl/defaultproject/Resources/Public/images/logo_smoll_2.png" alt="Media-alliance"></a>
+				</div>
+				<nav  class="navigation">
+					<div id="menu_mobile" class="phm_20">
+						<img src="fileadmin/tmpl/defaultproject/Resources/Public/images/white-menu-icon-48.png" alt="Mobile Menu" />
+					</div>
+					<div class="communication phm_20">
+						<a class="mail" href="#"> </a>
+						<a class="tel" href="#"> </a>
+					</div>
+					<div id="menu_main" class="rightfloater">
+						<f:cObject typoscriptObjectPath="lib.menu_main"/>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</f:section>
+
+	<f:section name="MobileMenu">
+		<div id="menu_mobile_content" style="display: none;">
+			<f:cObject typoscriptObjectPath="lib.menu_mobile"/>
+		</div>
+	</f:section>
+
+	<f:section name="Footer">
+
+	</f:section>
+
+</div>

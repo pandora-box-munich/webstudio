@@ -1,0 +1,108 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+xmlns:f="http://xsd.helmut-hummel.de/ns/TYPO3/CMS/Fluid/ViewHelpers">
+	<f:layout name="Default" />
+
+	<f:section name="main">
+		<v:asset.script path="{v:extension.path.siteRelative(extensionName : 'Interform')}Resources/Public/js/parsley.min.js" allowMoveToFooter="true"/>
+		<v:asset.script content="$('#newKontakt').parsley();"/>
+		<section class="box_regularform back_light box_padding_top box_padding_bottom fullwidth">
+			<div class="page_container">
+
+				<f:form action="create" enctype="multipart/form-data" name="newKontakt" object="{newKontakt}" id="newKontakt">
+
+					<h1><f:translate key="interform.request_more_information" /></h1>
+					<div class="regular_form">
+						<div id="error_container"></div>
+
+						<div id="salutation" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.salutation" />
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.select class="selectboxit" property="salutation" options="{Mr: '{f:translate(key:\'interform.salutation_mr\')}', Mrs: '{f:translate(key:\'interform.salutation_mrs\')}', Ms: '{f:translate(key:\'interform.salutation_ms\')}'}"/>
+							</div>
+						</div>
+						<div id="firstname" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.firstname" />
+								*
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.textfield property="firstName" class="feld_default" additionalAttributes="{data-parsley-class-handler: '#firstname', data-parsley-errors-container: '#error_container', data-parsley-required : 'true', data-parsley-required-message :'{f:translate(key:\'interform.error_firstname\')}'}"/>
+							</div>
+						</div>
+						<div id="lastname" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.lastname" />
+								*
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.textfield property="lastName" class="feld_default" additionalAttributes="{data-parsley-class-handler: '#lastname', data-parsley-errors-container: '#error_container', data-parsley-required : 'true', data-parsley-required-message :'{f:translate(key:\'interform.error_lastname\')}'}"/>
+							</div>
+						</div>
+						<div id="phone" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.phone" />
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.textfield property="phone" class="feld_default" />
+							</div>
+						</div>
+						<div id="mail" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.mail" />
+								*
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.textfield property="mail" class="feld_default" additionalAttributes="{data-parsley-class-handler: '#mail', data-parsley-errors-container: '#error_container', data-parsley-type : 'email', data-parsley-required : 'true', data-parsley-required-message :'{f:translate(key:\'interform.error_email\')}', data-parsley-trigger : 'focusout', data-parsley-type-message : '{f:translate(key:\'interform.error_emailvalid\')}'}"/>
+							</div>
+						</div>
+						<div id="resort" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.resort" />
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.select class="selectboxit" property="resort" options="{NoSelection: '{f:translate(key:\'interform.select_destination\')}', RivieraCancun: 'Riviera Cancun', PuntaCana: 'Punta Cana', PlayaMujeres: 'Playa Mujeres'}"/>
+							</div>
+						</div>
+						<div id="comments" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								<f:translate key="interform.message" />
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.textarea property="comments"/>
+							</div>
+						</div>
+						<div id="required" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								&nbsp;
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								* =
+								<f:translate key="interform.mandatory" />
+							</div>
+						</div>
+						<div id="sumbit" class="form_entry size1of1 leftfloater">
+							<div class="col1 size1of3 leftfloater">
+								&nbsp;
+							</div>
+							<div class="col2 size2of3 leftfloater">
+								<f:form.submit value="{f:translate(key:'interform.send')}" class="button_dark"/>
+							</div>
+						</div>
+						<div class="clear">
+							&nbsp;
+						</div>
+
+					</div>
+
+				</f:form>
+				<div class="clear">
+					&nbsp;
+				</div>
+			</div>
+		</section>
+	</f:section>
+</div>

@@ -1,0 +1,8 @@
+#Eigene Formatierungen hinzufügen
+
+tt_content.stdWrap.innerWrap.cObject {
+    31 < tt_content.stdWrap.innerWrap.cObject.default
+    31 = TEXT
+    31.value = <div class="grau">|</div>  
+   
+}

@@ -1,0 +1,87 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+<f:layout name="Content" />
+<div xmlns="http://www.w3.org/1999/xhtml"
+xmlns:flux="http://fedext.net/ns/flux/ViewHelpers"
+xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="Configuration">
+		<v:variable.set name="locallangPath" value="{v:variable.typoscript(path: 'lib.locallangPath.value')}" />
+
+		<flux:form id="content_claim" label="Content Claim" description="für Startseite">
+			<flux:form.sheet name="options" label="Options">
+
+				<flux:field.input name="bubble1" label="Bubble 1" />
+				<flux:field.text name="bubble1_content" enableRichText="1" label="Bubble 1 Content" />
+
+				<flux:field.input name="bubble2" label="Bubble 2" />
+				<flux:field.text name="bubble2_content" enableRichText="1" label="Bubble 2 Content" />
+
+				<flux:field.input name="bubble3" label="Bubble 3" />
+				<flux:field.text name="bubble3_content" enableRichText="1" label="Bubble 3 Content" />
+
+			</flux:form.sheet>
+		</flux:form>
+
+	</f:section>
+
+	<f:section name="Preview">
+		<h2>Content Claim</h2>
+		{bubble1} - {bubble2} - {bubble3}
+	</f:section>
+
+	<f:section name="Main">
+		<section class=" box_grau">
+			<div class= "page_container">
+				<div class= "content ptm_40">
+					<div class=" box1 size1of4  e1_size1of1_1200  leftfloater  ptm_40">
+						<f:format.html>
+							{bubble1_content}
+						</f:format.html>
+					</div>
+					<div class=" box2 size1of4  e1_size1of1_1200  leftfloater  ptm_40">
+						<f:format.html>
+							{bubble2_content}
+						</f:format.html>
+					</div>
+					<div class=" box3 size1of4  e1_size1of1_1200 leftfloater  ptm_40">
+						<f:format.html>
+							{bubble3_content}
+						</f:format.html>
+					</div>
+					<div class="size3of4 leftfloater e1_size1of1_1200  ptm_40 ">
+							<ul class="process">
+								<li>
+									<div class="round1">
+										<a class="icon_size" href="#">
+										<div class="img_text">
+											{bubble1}
+										</div> </a>
+									</div>
+								</li>
+								<li>
+									<div class="round2">
+										<a class="icon_size" href="#">
+										<div class="img_text">
+											{bubble2}
+										</div> </a>
+									</div>
+								</li>
+								<li>
+									<div class="round3 ">
+										<a class="icon_size" href="#">
+										<div class="img_text">
+											{bubble3}
+										</div> </a>
+									</div>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div></div>
+			</div>
+		</section>
+	</f:section>
+
+</div>

@@ -1,0 +1,31 @@
+#######################
+### SPRACHE  ##########
+#######################
+
+lib.menu_language = HMENU
+lib.menu_language {
+        special = language
+        special.value = 0,1
+        special.normalWhenNoLanguage = 0
+        1 = TMENU
+        1 {
+        		wrap = <ul>|</ul>
+        		
+                # Normal link to language that exists:
+                NO = 1
+          		NO.linkWrap = <li> | <span> /&nbsp;</span></li> |*| <li> | </li> |*| <li> | </li>
+                NO.stdWrap.setCurrent = EN || Es
+                NO.stdWrap.current = 1
+
+                # Current language selected:
+                ACT < .NO
+                ACT.linkWrap = <li class="active"> | <span> /&nbsp;</span></li> |*| <li class="active"> | </li> |*| <li class="active"> | </li>
+
+                # Language that is NOT available:
+                USERDEF1 < .NO
+                USERDEF1.linkWrap = <li class="not_available"> | </li> <span> /&nbsp;</span></li> |*| <li class="not_available"> | </li> |*| <li class="not_available"> | </li>
+                USERDEF1.doNotLinkIt = 1
+        
+          #NO.doNotLinkIt = 1
+        }
+}

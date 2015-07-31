@@ -1,0 +1,12 @@
+[GLOBAL]
+plugin.tx_fluidcontentintertain.view {
+	label = Fluid Content Elements - from intertain
+	extensionKey = FluidTYPO3.FluidcontentIntertain
+	templateRootPath = EXT:fluidcontent_intertain/Resources/Private/Templates/
+	partialRootPath = EXT:flux/Resources/Private/Partials/
+	layoutRootPath = EXT:fluidcontent/Resources/Private/Layouts/
+}
+
+plugin.tx_fluidcontentintertain.settings {
+	gridColumns = {$plugin.tx_fluidcontentintertain.settings.gridColumns}
+}

@@ -1,0 +1,51 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://xsd.helmut-hummel.de/ns/TYPO3/CMS/Fluid/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+	<f:layout name="Email"/>
+
+	<f:section name="Main">
+		<strong>Dear Excellence Team,</strong>
+		<p>the Event RFP form of your Website was submitted with following information:</p>
+		<p>
+			<span style="width: 150px; display: inline-block">Resort of interest:</span>{formular.resort}<br/><br/>
+			
+			<span style="width: 150px; display: inline-block">Salutation:</span>{formular.salutation}<br/>
+			<span style="width: 150px; display: inline-block">First name:</span>{formular.firstname}<br/>
+			<span style="width: 150px; display: inline-block">Last name:</span>{formular.lastname}<br/><br/>
+			
+			<span style="width: 150px; display: inline-block">Meeting Title:</span>{formular.meeting}<br/>
+			<span style="width: 150px; display: inline-block">Dates of event:</span>{formular.date1} <f:if condition="{formular.date2}">/ {formular.date2}</f:if><br/>
+			<span style="width: 150px; display: inline-block">Are these dates flexible?:</span>{formular.dateFlexibility}<br/>
+			<span style="width: 150px; display: inline-block">Alternate dates:</span>{formular.altDate1} <f:if condition="{formular.altDate2}">/ {formular.altDate2}</f:if><br/>
+			<span style="width: 150px; display: inline-block">Peak number of rooms:</span>{formular.roomNumbers}<br/><br/>
+
+			<span style="width: 150px; display: inline-block">Company:</span>{formular.company}<br/>
+			<span style="width: 150px; display: inline-block">Street 1:</span>{formular.street1}<br/>
+			<span style="width: 150px; display: inline-block">Street 2:</span>{formular.street2}<br/>
+			<span style="width: 150px; display: inline-block">ZIP / Postal Code:</span>{formular.zip}<br/>
+			<span style="width: 150px; display: inline-block">City:</span>{formular.city}<br/>
+			<span style="width: 150px; display: inline-block">State:</span>{formular.state}<br/>
+			<span style="width: 150px; display: inline-block">Country:</span>{formular.country}<br/>
+			<span style="width: 150px; display: inline-block">Phone:</span>{formular.phone}<br/>
+			<span style="width: 150px; display: inline-block">E-Mail:</span>{formular.mail}<br/><br/>
+			
+			<span style="width: 150px; display: inline-block">Total attendees:</span>{formular.attendees}<br/>
+			<span style="width: 150px; display: inline-block">Selected setup types:</span>
+				<f:if condition="{formular.setupRounds}">Rounds, </f:if> 
+				<f:if condition="{formular.setupAuditorium}">Auditorium, </f:if> 
+				<f:if condition="{formular.setupClassroom}">Classroom, </f:if> 
+				<f:if condition="{formular.setupConference}">Conference, </f:if> 
+				<f:if condition="{formular.setupExhibit}">Exhibit, </f:if> 
+				<f:if condition="{formular.setupCocktail}">Cocktail, </f:if> 
+			<br/>
+			<br/>
+			<f:if condition="{formular.comments}">
+			Comments:<br/><br/>
+			{formular.comments}
+			<br/>
+			</f:if>
+		</p>
+	</f:section>
+	
+</div>

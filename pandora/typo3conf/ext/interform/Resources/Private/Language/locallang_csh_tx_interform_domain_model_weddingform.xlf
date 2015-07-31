@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-08T15:45:53Z" product-name="interform">
+		<header/>
+		<body>
+			<trans-unit id="salutation.description">
+				<source>salutation</source>
+			</trans-unit>
+			<trans-unit id="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="street1.description">
+				<source>street1</source>
+			</trans-unit>
+			<trans-unit id="street2.description">
+				<source>street2</source>
+			</trans-unit>
+			<trans-unit id="city.description">
+				<source>city</source>
+			</trans-unit>
+			<trans-unit id="state.description">
+				<source>state</source>
+			</trans-unit>
+			<trans-unit id="zip.description">
+				<source>zip</source>
+			</trans-unit>
+			<trans-unit id="country.description">
+				<source>country</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="mail.description">
+				<source>mail</source>
+			</trans-unit>
+			<trans-unit id="resort.description">
+				<source>resort</source>
+			</trans-unit>
+			<trans-unit id="comments.description">
+				<source>comments</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

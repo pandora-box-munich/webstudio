@@ -1,0 +1,131 @@
+tt_content.gridelements_pi1.20.10.setup {
+  
+  
+  # ID des gridelements für 3 Spalten white
+  1 < lib.gridelements.defaultGridSetup
+  1 {
+     
+      wrap = <section class="white"><div class="page_container">|</div></section>
+  
+    columns {
+      # colPos ID
+      31 < .default
+      31.wrap = <div class="leftfloater size1of3 phm_20 ptm_40">|</div>
+      # colPos ID
+      32< .default
+      32.wrap = <div class="leftfloater size1of3 phm_20 ptm_40">|</div>
+      # colPos ID
+      33 < .default
+      33.wrap = <div class="leftfloater size1of3 phm_20 ptm_40">|</div><div class="clear">&nsbp;</div>
+    }
+  }
+# ID des gridelements für 3 Spalten grau
+  2 < lib.gridelements.defaultGridSetup
+  2 {
+     
+      wrap = <section class="grau"><div class="page_container">|</div></section>
+  
+    columns {
+      # colPos ID
+      31 < .default
+      31.wrap = <div class="leftfloater size1of3 phm_20 ptm_40">|</div>
+      # colPos ID
+      32< .default
+      32.wrap = <div class="leftfloater size1of3 phm_20 ptm_40">|</div>
+      # colPos ID
+      33 < .default
+      33.wrap = <div class="leftfloater size1of3 phm_20 ptm_40">|</div><div class="clear">&nsbp;</div>
+     }
+   }
+   # ID des gridelements für 2 Spalten 50_50 grau
+  3 < lib.gridelements.defaultGridSetup
+  3 {
+     
+      wrap = <section class="grau"><div class="page_container">|</div></section>
+  
+    columns {
+      # colPos ID
+      21 < .default
+      21.wrap = <div class="leftfloater size1of2 phm_20 ptm_40">|</div>
+      # colPos ID
+      22 < .default
+      22.wrap = <div class="leftfloater size1of2 phm_20 ptm_40">|</div><div class="clear">&nsbp;</div>
+     }
+   }
+ # ID des gridelements für 2 Spalten 50_50 white
+  4 < lib.gridelements.defaultGridSetup
+  4 {
+     
+      wrap = <section class="white"><div class="page_container">|</div></section>
+  
+    columns {
+      # colPos ID
+      21 < .default
+      21.wrap = <div class="leftfloater size1of2 phm_20 ptm_40">|</div>
+      # colPos ID
+      22 < .default
+      22.wrap = <div class="leftfloater size1of2 phm_20 ptm_40">|</div><div class="clear">&nsbp;</div>
+    }  
+  }
+   # ID des gridelements für 2 Spalten 66_33 grau
+  5 < lib.gridelements.defaultGridSetup
+  5 {
+     
+      wrap = <section class="grau"><div class="page_container">|</div></section>
+  
+    columns {
+      # colPos ID
+      66 < .default
+      66.wrap = <div class="box_main size2of3 e1_size1of1 leftfloater ptm_60">|</div>
+      # colPos ID
+      33 < .default
+      33.wrap = <div class="box_aside_right box_e_video size1of3 e1_size1of1 leftfloater ptm_60">|</div><div class="clear">&nsbp;</div>
+    }  
+  }
+     # ID des gridelements für 2 Spalten 66_33 white
+  6 < lib.gridelements.defaultGridSetup
+  6 {
+     
+      wrap = <section class="white"><div class="page_container box_white">|</div></section>
+  
+    columns {
+      # colPos ID
+      66 < .default
+      66.wrap = <div class="box_main size2of3 e1_size1of1 leftfloater ptm_60">|</div>
+      # colPos ID
+      33 < .default
+      33.wrap = <div class="box_aside_right box_e_video size1of3 e1_size1of1 leftfloater ptm_60">|</div><div class="clear">&nsbp;</div>
+    }  
+  }
+   # ID des gridelements für 2 Spalten 33_66 grau
+  7 < lib.gridelements.defaultGridSetup
+  7 {
+     
+      wrap = <section class="grau"><div class="page_container">|</div></section>
+  
+    columns {
+      # colPos ID
+      33 < .default
+      33.wrap = <div class="box_aside_right box_e_video size1of3 e1_size1of1 leftfloater ptm_60">|</div>
+      # colPos ID
+      66 < .default
+      66.wrap = <div class="box_main size2of3 e1_size1of1 leftfloater ptm_60">|</div><div class="clear">&nsbp;</div>
+    }  
+  }
+      # ID des gridelements für 2 Spalten 33_66 white
+  8 < lib.gridelements.defaultGridSetup
+  8 {
+     
+      wrap = <section class="white"><div class="page_container box_white">|</div></section>
+  
+    columns {
+      # colPos ID
+      33 < .default
+      33.wrap = <div class=" box_aside_right box_e_video size1of3 e1_size1of1 leftfloater ptm_60">|</div>
+      # colPos ID
+      66 < .default
+      66.wrap = <div class="box_main size2of3 e1_size1of1 leftfloater ptm_60">|</div><div class="clear">&nsbp;</div>
+    }  
+  }
+  
+}

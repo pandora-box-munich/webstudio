@@ -41,3 +41,49 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/irinaiou
 
 !ENTRY org.eclipse.core.net 1 0 2015-07-30 23:05:45.940
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-07-31 15:06:20.239
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2015-07-31 15:07:31.099 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=de_DE
+Framework arguments:  -keyring /Users/irinaioudina/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/irinaioudina/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.517
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.518
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.520
+!MESSAGE NLS unused message: SplitValues_Vertical in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.520
+!MESSAGE NLS unused message: GlobalizationPreference_ltrDirection in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.520
+!MESSAGE NLS unused message: GlobalizationPreference_rtlDirection in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.521
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.690
+!MESSAGE NLS unused message: ShowInSystemExplorerHandler_notDetermineLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.690
+!MESSAGE NLS unused message: IDEApplication_versionTitle_olderWorkspace in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.691
+!MESSAGE NLS unused message: IDEApplication_versionTitle_newerWorkspace in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.691
+!MESSAGE NLS unused message: IDEApplication_versionMessage_olderWorkspace in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-07-31 15:07:31.691
+!MESSAGE NLS unused message: IDEApplication_versionMessage_newerWorkspace in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-31 15:07:39.846
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
