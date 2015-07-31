@@ -1,7 +1,7 @@
 tt_content.gridelements_pi1.20.10.setup {
   
   
-  # ID des gridelements für 3 Spalten white
+  # #####ID des gridelements für 3 Spalten white
   8 < lib.gridelements.defaultGridSetup
   8 {
      

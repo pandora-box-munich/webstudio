@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Ressource &apos;pandora&apos; löschen" deleteContents="false" description="Ressource &apos;pandora&apos; löschen" element1="/pandora" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1438356550058"/>
+</session>
